@@ -1,7 +1,9 @@
+package poliRetos;
+import poliRetos.controladorGlobal.controlador;
 
-    package poliRetos;
 public class App {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
+            
             System.out.println("Grupo #2");
             System.out.println("Integrantes:");
             System.out.println("Cardenas.Mateo");
@@ -9,5 +11,9 @@ public class App {
             System.out.println("Clavijo.Eidan");
             System.out.println("Donoso.Pedro");
             System.out.println("Enriquez.Matias");
+            
+            controlador control = new controlador();
+            control.iniciarProyecto();
+            
     }
 }
