@@ -2,7 +2,7 @@ package poliRetos;
 import poliRetos.controladorGlobal.controlador;
 
 public class App {
-    public static void main(String[] args) {
+        public static void main(String[] args) {
             
             System.out.println("Grupo #2");
             System.out.println("Integrantes:");

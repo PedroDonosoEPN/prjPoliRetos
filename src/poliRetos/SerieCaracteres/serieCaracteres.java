@@ -1,4 +1,4 @@
-package poliRetos.CadenaCaracteres;
+package poliRetos.SerieCaracteres;
 
 public class serieCaracteres {
 

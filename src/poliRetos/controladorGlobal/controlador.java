@@ -6,12 +6,12 @@ import  poliRetos.seriesNumericas.*;
 import poliRetos.Figuras.*;
 import poliRetos.Arrays.*;
 import poliRetos.Recursion.*;
+import poliRetos.SerieCaracteres.*;
 import poliRetos.Loading.*;
 import poliRetos.seriesDeCaracteres.*;
-import poliRetos.CadenaCaracteres.*;
 import poliRetos.GrafosYAutomatas.*;
 
-public class controlador {
+public class controlador {  
     private Scanner sc = new Scanner(System.in);
 
     public void iniciarProyecto() {
@@ -58,15 +58,21 @@ public class controlador {
         System.out.println("\n--- [ SERIES NUMÉRICAS ] ---");
         System.out.println("1. Reto S3 (Fibonacci/Impares)");
         System.out.print("Seleccione el reto: ");
-        int reto = Integer.parseInt(sc.nextLine());
+        int opcion= Integer.parseInt(sc.nextLine());
 
-        if (reto == 1) {
-            System.out.print("¿Cuántos términos desea?: ");
-            int n = Integer.parseInt(sc.nextLine());
+        System.out.print("Ingrese el número de términos (n): ");
+        int nTerminos= Integer.parseInt(sc.nextLine());
 
-            serieNumerica sn = new serieNumerica();
-            sn.generarSerieNum(n);
+        SerieNumericaPedro seriePedro = new SerieNumericaPedro();
+
+        switch (opcion) {
+            case  1:
+                    seriePedro.generarSerieNum(nTerminos); 
+                break;
+            default:
+                throw new AssertionError();
         }
+        
     }
 
     private void menuSeriesCaracteres() {

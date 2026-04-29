@@ -1,6 +1,6 @@
 package poliRetos.seriesNumericas;
 
-public class serieNumerica {
+public class   SerieNumericaPedro {
 
 
         /**
