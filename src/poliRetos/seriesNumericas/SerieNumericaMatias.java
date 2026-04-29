@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class SerieNumericaMatias {
    
-    public void generarSerie() {;
+    public void generarSerie() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Ingrese el numero de terminos a generar: ");
         int num = sc.nextInt();

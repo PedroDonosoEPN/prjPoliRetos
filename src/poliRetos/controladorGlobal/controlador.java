@@ -3,13 +3,14 @@ package poliRetos.controladorGlobal;
 import java.util.Scanner;
 // Importamos las clases de tus carpetas de lógica
 import  poliRetos.seriesNumericas.*;
+import poliRetos.ArraysPedro.*;
 import poliRetos.Figuras.*;
-import poliRetos.Arrays.*;
-import poliRetos.Recursion.*;
 import poliRetos.SerieCaracteres.*;
 import poliRetos.Loading.*;
-import poliRetos.seriesDeCaracteres.*;
+import poliRetos.Recursion.*;
+import poliRetos.seriesCaracteres.*;
 import poliRetos.GrafosYAutomatas.*;
+import poliRetos.CadenaCaracteres.*;
 
 public class controlador {  
     private Scanner sc = new Scanner(System.in);
@@ -68,6 +69,10 @@ public class controlador {
         switch (opcion) {
             case  1:
                     seriePedro.generarSerieNum(nTerminos); 
+                break;
+             case 2:
+                    SerieNumericaMatias serieMatias = new SerieNumericaMatias();
+                    serieMatias.generarSerie(nTerminos);
                 break;
             default:
                 throw new AssertionError();
