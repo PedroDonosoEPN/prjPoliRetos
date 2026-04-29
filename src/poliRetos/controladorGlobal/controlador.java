@@ -8,7 +8,6 @@ import poliRetos.Arrays.*;
 import poliRetos.Recursion.*;
 import poliRetos.SerieCaracteres.*;
 import poliRetos.Loading.*;
-import poliRetos.seriesCaracteres.*;
 import poliRetos.GrafosYAutomatas.*;
 
 public class controlador {  
