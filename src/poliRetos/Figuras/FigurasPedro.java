@@ -1,5 +1,5 @@
 package poliRetos.Figuras;
 
-public class Figuras {
+public class FigurasPedro {
 
 }
