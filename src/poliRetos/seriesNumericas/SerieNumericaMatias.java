@@ -1,4 +1,4 @@
-package poliRetos.seriesNumericas.seriesNumericasMatias;
+package poliRetos.seriesNumericas;
 import java.util.Scanner;
 
 public class SerieNumericaMatias {
