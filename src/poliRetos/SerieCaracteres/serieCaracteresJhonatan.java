@@ -1,6 +1,6 @@
 package poliRetos.SerieCaracteres;
 
-public class SerieCaracteresJhonatan {
+public class SerieCaracteresJhonatan{
     /**
      * Generar la serie de caracteres S4: + - * / + - * / ......
      * @param cantidad: Se encarga de determinar la cantidad de elementos a generar en la serie.
