@@ -1,5 +1,5 @@
 package poliRetos.GrafosYAutomatas;
 
-public class GrafosYAutomatas {
+public class GrafosYAutomatasPedro {
 
 }
