@@ -58,6 +58,7 @@ public class controlador {
     private void menuSeriesNumericas() {
         System.out.println("\n--- [ SERIES NUMÉRICAS ] ---");
         System.out.println("1. Reto S3 (Fibonacci/Impares)");
+        System.out.println("2. Reto S8 (3, 8, 13, ...)");
         System.out.print("Seleccione el reto: ");
         int opcion = Integer.parseInt(sc.nextLine());
 
@@ -69,6 +70,7 @@ public class controlador {
         switch (opcion) {
             case 1: seriePedro.generarSerieNum(nTerminos); break;
             default: System.out.println("Opción no válida."); break;
+            case 2: new SerieNumericaMateo().generarSerie(nTerminos); break;
         }
         pausar();
     }
