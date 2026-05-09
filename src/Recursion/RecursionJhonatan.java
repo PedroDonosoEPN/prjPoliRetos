@@ -1,4 +1,4 @@
-package poliRetos.Recursion;
+package Recursion;
 
 public class RecursionJhonatan {
 

@@ -1,4 +1,4 @@
-package poliRetos.GrafosYAutomatas;
+package GrafosYAutomatas;
 
 public class GrafosYAutomatasJhonatan {
 
