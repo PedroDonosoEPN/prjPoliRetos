@@ -1,4 +1,4 @@
-package poliRetos.SerieCaracteres;
+package SerieCaracteres;
 
 public class SerieCaracteresJhonatan{
     /**

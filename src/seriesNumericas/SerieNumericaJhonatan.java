@@ -1,4 +1,4 @@
-package poliRetos.seriesNumericas;
+package seriesNumericas;
 
 public class SerieNumericaJhonatan {
     /**

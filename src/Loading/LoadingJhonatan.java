@@ -1,4 +1,4 @@
-package poliRetos.Loading;
+package Loading;
 
 public class LoadingJhonatan {
     /**

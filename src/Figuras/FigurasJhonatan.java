@@ -1,4 +1,4 @@
-package poliRetos.Figuras;
+package Figuras;
 
 public class FigurasJhonatan {
     /**

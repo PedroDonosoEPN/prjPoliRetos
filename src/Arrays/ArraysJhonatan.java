@@ -1,4 +1,4 @@
-package poliRetos.Arrays;
+package Arrays;
 
 public class ArraysJhonatan {
     /**
