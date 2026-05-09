@@ -5,6 +5,8 @@ public  class   Controlador {
         //Serie Numerica
         controladorPedro.showDeber();
         
+        ControladorJhonatan controladorJhonatan = new ControladorJhonatan();
+        controladorJhonatan.mostrarDeberJhonatan();
 
     }
 }

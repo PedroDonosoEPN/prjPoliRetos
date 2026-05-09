@@ -20,5 +20,6 @@ public class SerieNumericaJhonatan {
 
             denominador+=2;
         }
+    System.out.println();
     }
 }

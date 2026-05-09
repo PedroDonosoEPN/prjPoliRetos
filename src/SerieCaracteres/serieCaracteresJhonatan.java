@@ -17,6 +17,7 @@ public class SerieCaracteresJhonatan{
                     System.out.print("/");
                 }   
             }
+            System.out.println();
         }
       
     }
