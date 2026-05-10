@@ -1,16 +1,15 @@
-package poliRetos.seriesNumericas;
-import java.util.Scanner;
+package seriesNumericas;
 
 public class SerieNumericaMatias {
    
-    public void generarSerie(int nTerminos) {;
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Ingrese el numero de terminos a generar: ");
-        int num = sc.nextInt();
-        
+    public void generarSerie(int nTerminos) {
+        /*
+         * Reto: Generar una serie numerica con un número específico de términos.
+         * @param nTerminos El número de términos a generar.
+         */
         System.out.println("Serie numerica: ");
         
-        for (int i = 1; i <= num; i++) {
+        for (int i = 1; i <= nTerminos; i++) {
             System.out.print(i * i + " ");      
         }
     System.out.println();
