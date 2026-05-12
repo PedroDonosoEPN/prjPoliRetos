@@ -1,7 +1,9 @@
 import Arrays.ArraysJhonatan;
 import CadenaCaracteres.CadenaCaracteresJhonatan;
 import Figuras.FigurasJhonatan;
+import GrafosYAutomatas.GrafosYAutomatasJhonatan;
 import Loading.LoadingJhonatan;
+import Recursion.RecursionJhonatan;
 import SerieCaracteres.SerieCaracteresJhonatan;
 import seriesNumericas.SerieNumericaJhonatan;
 
@@ -38,5 +40,13 @@ public class ControladorJhonatan {
         loadingJhonatan.mostrarWaitingFor(100);
         loadingJhonatan.mostrarWaitingWhile(100);
         loadingJhonatan.mostrarWaitingDoWhile(100);
+
+        //Recursion
+        RecursionJhonatan recursionJhonatan = new RecursionJhonatan();
+        recursionJhonatan.obtenerPotencia(2, 3);
+
+        //Grafos y Automatas
+        GrafosYAutomatasJhonatan grafosYAutomatasJhonatan = new GrafosYAutomatasJhonatan();
+        grafosYAutomatasJhonatan.validarDecimalJhonatan("8.93");
     }
 }
