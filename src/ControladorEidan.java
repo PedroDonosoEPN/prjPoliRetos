@@ -14,6 +14,11 @@ public class ControladorEidan {
         serieCaracteres.cadenasFor();
         serieCaracteres.cadenasWhile();
         serieCaracteres.cadenasDoWhile();
+
+        Figuras.FigurasEidan figuras = new Figuras.FigurasEidan();
+        figuras.escaleraFor();
+        figuras.escaleraWhile();
+        figuras.escaleraDoWhile();
     }
 
     public static void main(String[] args) {
