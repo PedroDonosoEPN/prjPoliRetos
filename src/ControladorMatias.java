@@ -29,7 +29,9 @@ public class ControladorMatias {
 
         // 4. Cadenas de Caracteres 
         InvertirFraseMatias cadenas = new InvertirFraseMatias();
-        cadenas.invertirFrase("Estructura de Datos EPN");
+        cadenas.invertirFraseFor("Hola Como estas?");
+        cadenas.InvertirFraseWhile("Hola Como estas?");
+        cadenas.InvertirFraseDoWhile("Hola Como estas?");
 
         // 5. Recursión
         RecursionMatias recursion = new RecursionMatias();
