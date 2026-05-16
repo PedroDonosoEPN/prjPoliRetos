@@ -23,7 +23,9 @@ public class ControladorMatias {
 
         // 3. Figuras (Pirámide)
         PiramideCaracterMatias figuras = new PiramideCaracterMatias();
-        figuras.generarPiramide(6, '*');
+        figuras.generarPiramideFor(6, '*');
+        figuras.generarPiramideWhile(6, '*');
+        figuras.generarPiramideDoWhile(6, '*');
 
         // 4. Cadenas de Caracteres 
         InvertirFraseMatias cadenas = new InvertirFraseMatias();
