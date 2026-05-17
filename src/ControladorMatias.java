@@ -10,24 +10,34 @@ public class ControladorMatias {
     public void mostrarDeberMatias() {
 
         // 1. Series Numéricas 
-        SerieNumericaMatias sNum = new SerieNumericaMatias();
-        sNum.generarSerie(10); 
+        SerieNumericaMatias SerieNumerica = new SerieNumericaMatias();
+        SerieNumerica.generarSerieFor(10); 
+        SerieNumerica.generarSerieWhile(10);
+        SerieNumerica.generarSerieDoWhile(10);
 
         // 2. Series de Caracteres
-        SerieAlfabeticaMatias sAlfa = new SerieAlfabeticaMatias();
-        sAlfa.generarAlfabeto(12);
+        SerieAlfabeticaMatias SerieAlfabetica = new SerieAlfabeticaMatias();
+        SerieAlfabetica.generarAlfabetoFor(12);
+        SerieAlfabetica.generarAlfabetoWhile(12);
+        SerieAlfabetica.generarAlfabetoDoWhile(12);
 
         // 3. Figuras (Pirámide)
         PiramideCaracterMatias figuras = new PiramideCaracterMatias();
-        figuras.generarPiramide(6, '*');
+        figuras.generarPiramideFor(6, '*');
+        figuras.generarPiramideWhile(6, '*');
+        figuras.generarPiramideDoWhile(6, '*');
 
         // 4. Cadenas de Caracteres 
         InvertirFraseMatias cadenas = new InvertirFraseMatias();
-        cadenas.invertirFrase("Estructura de Datos EPN");
+        cadenas.invertirFraseFor("Hola Como estas?");
+        cadenas.InvertirFraseWhile("Hola Como estas?");
+        cadenas.InvertirFraseDoWhile("Hola Como estas?");
 
         // 5. Recursión
         RecursionMatias recursion = new RecursionMatias();
-        recursion.conteoRegresivo(5);
+        recursion.conteoRegresivoFor(5);
+        recursion.conteoRegresivoWhile(5);
+        recursion.conteoRegresivoDoWhile(5);
 
         // 6. Grafos y Autómatas
         GrafosYAutomatasMatias automatnas = new GrafosYAutomatasMatias();
