@@ -38,6 +38,10 @@ public class ControladorEidan {
             recursion.conteoWhile();
             recursion.conteoDoWhile();
 
+        GrafosYAutomatas.GrafosYAutomatasEidan grafosYAutomatas = new GrafosYAutomatas.GrafosYAutomatasEidan();
+            grafosYAutomatas.validarClave("Eidan123*");
+
+
     }
 
     public static void main(String[] args) {

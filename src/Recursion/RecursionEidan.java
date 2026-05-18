@@ -1,7 +1,9 @@
 package Recursion;
 
 public class RecursionEidan {
- 
+/*    R06) crear un metodo recursivo para obtener la conteoRegresivo(n) hasta 0 /
+imprimir el avance */
+
     // Método usando FOR
     public void conteoFor() {
       int n = 10;
