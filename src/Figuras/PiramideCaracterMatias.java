@@ -1,6 +1,13 @@
 package Figuras;
 
 public class PiramideCaracterMatias {
+
+    public static void main(String[] args) {
+        PiramideCaracterMatias piramide = new PiramideCaracterMatias();
+        piramide.generarPiramideFor(6);
+        piramide.generarPiramideWhile(6);
+        piramide.generarPiramideDoWhile(6);
+    }
     public void generarPiramideFor(int nivel) {
         /*
          * Reto: Generar una pirámide de caracteres
