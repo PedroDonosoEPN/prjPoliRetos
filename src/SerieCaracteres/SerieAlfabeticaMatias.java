@@ -2,40 +2,32 @@ package SerieCaracteres;
 
 public class SerieAlfabeticaMatias  {
     
-    public void generarAlfabetoFor(int num) {
+    public void generarAlfabetoFor(char letralimite) {
         /*
          * Reto: Generar una serie alfabetica con un número específico de términos.
-         * @param num El número de términos a generar.
-         * @param letra La letra inicial de la serie.
+         * @param letralimite El límite de la letra final de la serie.
          */
-        System.out.println("Serie alfabetica: (" + num +" terminos)");
-        
-        for (int i = 0; i < num; i++) {
-            char letra = (char) ('a' + i);
-            System.out.print(letra + " ");
+         for(char a = 'a'; a <= letralimite; a++){
+            System.out.print(a + ", ");
         }
         System.out.println();
     }
 
-    public void generarAlfabetoWhile(int num) {
-        System.out.println("Serie alfabetica: (" + num +" terminos)");
-        int i = 0;
-        while (i < num) {
-            char letra = (char) ('a' + i);
-            System.out.print(letra + " ");
-            i++;
+    public void generarAlfabetoWhile(char letralimite) {
+        char a = 'a';
+        while (a <= letralimite) {
+            System.out.print(a + " ");
+            a++;
         }
         System.out.println();
-    }
+        }
 
-    public void generarAlfabetoDoWhile(int num) {
-        System.out.println("Serie alfabetica: (" + num +" terminos)");
-        int i = 0;
+    public void generarAlfabetoDoWhile(char letralimite) {
+        char a = 'a';
         do {
-            char letra = (char) ('a' + i);
-            System.out.print(letra + " ");
-            i++;
-        } while (i < num);
+            System.out.print(a + " ");
+            a++;
+        } while (a <= letralimite);
         System.out.println();
     }
 }
