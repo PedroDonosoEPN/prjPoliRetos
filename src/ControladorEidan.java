@@ -34,9 +34,7 @@ public class ControladorEidan {
             loading.barraDoWhile();
 
         Recursion.RecursionEidan recursion = new Recursion.RecursionEidan();
-            recursion.conteoFor();
-            recursion.conteoWhile();
-            recursion.conteoDoWhile();
+            recursion.conteoRecursivo(10);
 
         GrafosYAutomatas.GrafosYAutomatasEidan grafosYAutomatas = new GrafosYAutomatas.GrafosYAutomatasEidan();
             grafosYAutomatas.validarClave("Eidan123*");
