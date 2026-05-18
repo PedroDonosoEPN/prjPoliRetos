@@ -17,15 +17,15 @@ public class ControladorMatias {
 
         // 2. Series de Caracteres
         SerieAlfabeticaMatias SerieAlfabetica = new SerieAlfabeticaMatias();
-        SerieAlfabetica.generarAlfabetoFor(12);
-        SerieAlfabetica.generarAlfabetoWhile(12);
-        SerieAlfabetica.generarAlfabetoDoWhile(12);
+        SerieAlfabetica.generarAlfabetoFor('j');
+        SerieAlfabetica.generarAlfabetoWhile('j');
+        SerieAlfabetica.generarAlfabetoDoWhile('j');
 
         // 3. Figuras (Pirámide)
         PiramideCaracterMatias figuras = new PiramideCaracterMatias();
-        figuras.generarPiramideFor(6, '*');
-        figuras.generarPiramideWhile(6, '*');
-        figuras.generarPiramideDoWhile(6, '*');
+        figuras.generarPiramideFor(6);
+        figuras.generarPiramideWhile(6);
+        figuras.generarPiramideDoWhile(6);
 
         // 4. Cadenas de Caracteres 
         InvertirFraseMatias cadenas = new InvertirFraseMatias();
