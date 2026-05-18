@@ -1,14 +1,14 @@
 package Recursion;
 
 public class RecursionMatias {
-    
+
     public void conteoRegresivoFor(int numero) {
         /*
          * Reto: Realiza un conteo regresivo desde un número dado hasta cero utilizando recursión.
          * @param numero El número desde el cual iniciar el conteo regresivo.
         */
 
-        for (int i = numero; i > 0; i--) {
+        for (int i = numero; i >= 0; i--) {
             System.out.print(i + " ");
         }
         System.out.println();
@@ -16,7 +16,7 @@ public class RecursionMatias {
 
     public void conteoRegresivoWhile(int numero) {
         int i = numero;
-        while (i > 0) {
+        while (i >= 0) {
             System.out.print(i + " ");
             i--;
         }
@@ -28,7 +28,7 @@ public class RecursionMatias {
         do {
             System.out.print(i + " ");
             i--;
-        } while (i > 0);
+        } while (i >= 0);
         System.out.println();
     }
 }
