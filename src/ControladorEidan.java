@@ -28,6 +28,12 @@ public class ControladorEidan {
         
         ArraysEidan.main();
 
+        Loading.LoadingEidan loading = new Loading.LoadingEidan();
+            loading.barraFor();
+            loading.barraWhile();
+            loading.barraDoWhile();
+
+
     }
 
     public static void main(String[] args) {
