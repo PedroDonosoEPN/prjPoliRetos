@@ -1,3 +1,4 @@
+import Arrays.ArraysEidan;
 import seriesNumericas.SerieNumericaEidan;
 
 public class ControladorEidan {
@@ -25,6 +26,8 @@ public class ControladorEidan {
         cadenaCaracteres.fraseWhile();
         cadenaCaracteres.fraseDoWhile();
         
+        ArraysEidan.main();
+
     }
 
     public static void main(String[] args) {
