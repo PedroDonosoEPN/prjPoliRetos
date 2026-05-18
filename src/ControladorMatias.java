@@ -46,6 +46,6 @@ public class ControladorMatias {
 
         // 7. Loading
         LoadingMatias loading = new LoadingMatias();
-        loading.loading(20, "<=>");
+        loading.loadingfor(20);
     }
 }
