@@ -47,5 +47,7 @@ public class ControladorMatias {
         // 7. Loading
         LoadingMatias loading = new LoadingMatias();
         loading.loadingfor(20);
+        loading.loadingwhile(20);
+        loading.loadingDoWhile(20);
     }
 }
