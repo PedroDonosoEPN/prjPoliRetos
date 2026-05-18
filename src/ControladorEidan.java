@@ -33,6 +33,10 @@ public class ControladorEidan {
             loading.barraWhile();
             loading.barraDoWhile();
 
+        Recursion.RecursionEidan recursion = new Recursion.RecursionEidan();
+            recursion.conteoFor();
+            recursion.conteoWhile();
+            recursion.conteoDoWhile();
 
     }
 
