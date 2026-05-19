@@ -17,7 +17,7 @@ public class GrafosYAutomatasPedro {
             System.out.println("Resultado: CADENA RECHAZADA");
         }
         
-        scanner.close();
+       /*  scanner.close(); */
     }
 
     public static boolean validarAutomata(String cadena) {
