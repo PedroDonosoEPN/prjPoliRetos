@@ -2,12 +2,6 @@ package CadenaCaracteres;
 
 public class InvertirFraseMatias {
 
-    public static void main(String[] args) {
-        InvertirFraseMatias cadenas = new InvertirFraseMatias();
-        cadenas.invertirFraseFor("Hola Como estas?");
-        cadenas.InvertirFraseWhile("Hola Como estas?");
-        cadenas.InvertirFraseDoWhile("Hola Como estas?");
-    }
     public void invertirFraseFor(String frase) {
         /*
         * Reto: Invertir una frase

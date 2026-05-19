@@ -11,9 +11,14 @@ public  class   Controlador {
 
           ControladorEidan controladorEidan = new ControladorEidan();
         controladorEidan.mostrarDeberEidan(); 
+      
+      
+        ControladorMatias controladorMatias = new ControladorMatias();
+        controladorMatias.mostrarDeberMatias();
         
       
 
 
     }
+
 }
