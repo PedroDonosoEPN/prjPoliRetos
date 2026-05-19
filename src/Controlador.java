@@ -7,5 +7,7 @@ public  class   Controlador {
         ControladorJhonatan controladorJhonatan = new ControladorJhonatan();
         controladorJhonatan.mostrarDeberJhonatan();
 
+        ControladorMatias controladorMatias = new ControladorMatias();
+        controladorMatias.mostrarDeberMatias();
     }
 }
