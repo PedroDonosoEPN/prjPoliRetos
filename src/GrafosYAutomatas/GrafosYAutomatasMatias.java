@@ -10,7 +10,7 @@ public class GrafosYAutomatasMatias {
     */
     public void validarLenguaje(String entrada) {
         String[] lenguaje = {"for", "if", "else", "ifelse", "foreach"};
-        boolean esValido = false;
+        boolean ParaValidar = false;
         String Encontrado = "";
         String sinespacios = entrada.trim();
 
@@ -19,7 +19,7 @@ public class GrafosYAutomatasMatias {
                 String sobrante = entrada.substring(palabra.length());
                 
                 if (sobrante.isEmpty() || sobrante.startsWith(" ") || sobrante.startsWith("(")) {
-                    esValido = true;
+                    ParaValidar = true;
                     Encontrado = palabra;
                     break;
                 }
@@ -27,7 +27,7 @@ public class GrafosYAutomatasMatias {
         }
 
         System.out.println("Entrada: [" + entrada + "]");
-        if (esValido) {
+        if (ParaValidar) {
             System.out.println("Resultado: ACEPTADA " + Encontrado + "'");
         } else {
             System.out.println("Resultado: RECHAZADA - No pertenece al lenguaje L.");
