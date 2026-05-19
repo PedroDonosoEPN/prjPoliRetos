@@ -26,7 +26,6 @@ public class GrafosYAutomatasMatias {
             }
         }
 
-        System.out.println("Entrada: [" + entrada + "]");
         if (ParaValidar) {
             System.out.println("Resultado: ACEPTADA " + Encontrado + "'");
         } else {
